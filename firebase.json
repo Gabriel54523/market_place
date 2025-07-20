@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "NOMBRE_DE_TU_SERVICIO_CLOUD_RUN",
+          "region": "REGION"
+        }
+      }
+    ]
+  }
+} 
