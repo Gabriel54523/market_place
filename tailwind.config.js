@@ -1,11 +1,12 @@
-module.exports = {
+export default {
   content: [
-    './resources/**/*.blade.php',
-    './resources/**/*.js',
-    './resources/**/*.vue',
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
   ],
+  darkMode: 'class', // Soporte para modo oscuro
   theme: {
     extend: {},
   },
   plugins: [],
-} 
+}
